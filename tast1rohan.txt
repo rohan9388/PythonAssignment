@@ -1,0 +1,73 @@
+#Question 1
+a,b,c = 5, 23.4 , "consultadd"
+print(type(a))
+print(type(b))
+print(type(c))
+
+#Question 2
+a = 5 + 10j
+print(type(a))
+b = 200
+print (type(b))
+a,b=b,a
+print(a,b)
+200 (5+10j)
+
+#Questoin 3
+a = 5
+>>> b = 7
+>>> result = a
+>>> a = b
+>>> b = result
+>>> print (a,b)
+7 5
+
+>>> a,b = b,a
+>>> print (a,b)
+5 7
+
+#Question 4
+>>> print (7/5)
+1.4
+#print 7/5
+1
+
+#Question 5
+>>> a = 5
+>>> b = 6
+>>> z = a+b
+>>> z = z+30
+>>> print (z)
+41
+
+#Question 6
+>>> a=4
+>>> b=7.5
+>>> c='consultadd'
+>>> print (a, 'the input value data type is',type(a))
+4 the input value data type is <class 'int'>
+>>> print (b, 'the input value data type is',type(b))  
+7.5 the input value data type is <class 'float'>
+>>> print (c, 'the input value data type is',type(c)) 
+consultadd the input value data type is <class 'str'>
+
+#Question 7
+
+>>> #camel case
+>>>
+>>> numberOfEmployees = 100
+>>> employeeName = "Ramchandra Suresh"
+>>> print(employeeName)
+Ramchandra Suresh
+
+>>> #Lowercase
+>>> 
+>>> numberofemployees = 100
+>>> print(numberofemployees)
+100
+
+#Questions 8
+
+Yes
+Because variable can be reassigned and the last changed data is taken into considered.
+
